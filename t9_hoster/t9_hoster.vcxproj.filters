@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Cheat">
+      <UniqueIdentifier>{21032cde-50b9-4a1b-ae3d-37bfff3eccdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cheat">
+      <UniqueIdentifier>{af973429-aafa-48ea-8dc8-6d64b6659a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cheat\Game">
+      <UniqueIdentifier>{6aadfb33-21dd-4540-861c-bf8834938322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cheat\Menu">
+      <UniqueIdentifier>{b6423f55-dd95-4d49-b038-6e2993026ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cheat\Game">
+      <UniqueIdentifier>{91256c3b-21e7-48a5-9ae1-601699d03437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cheat\Menu">
+      <UniqueIdentifier>{79645de8-50e2-4335-a39d-fe39da976d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cheat\Utils">
+      <UniqueIdentifier>{51c4f0b5-e91a-4db1-b45b-f5580b5bff3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cheat\Utils">
+      <UniqueIdentifier>{476dc20b-0d0b-41e6-8082-16753d551f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cheat\Utils\MinHook">
+      <UniqueIdentifier>{bce3b5e3-9d3c-4206-94b4-b8630e0f630a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cheat\Utils\MinHook\hde">
+      <UniqueIdentifier>{866ac0ad-08c6-46c0-a9ff-d392fd44c891}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cheat\Utils\MinHook">
+      <UniqueIdentifier>{dd2b05b0-bb7a-4211-a481-4d9c9ebf852a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cheat\Utils\MinHook\hde">
+      <UniqueIdentifier>{e3b44e2e-4d2a-4040-a874-598eb10c0c2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cheat\Main.cpp">
+      <Filter>Source Files\Cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\Utils\MinHook\buffer.c">
+      <Filter>Source Files\Cheat\Utils\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\Utils\MinHook\hook.c">
+      <Filter>Source Files\Cheat\Utils\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\Utils\MinHook\trampoline.c">
+      <Filter>Source Files\Cheat\Utils\MinHook</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\Utils\MinHook\hde\hde32.c">
+      <Filter>Source Files\Cheat\Utils\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\Utils\MinHook\hde\hde64.c">
+      <Filter>Source Files\Cheat\Utils\MinHook\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\Utils\Addresses.cpp">
+      <Filter>Source Files\Cheat\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\Game\Functions.cpp">
+      <Filter>Source Files\Cheat\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\Menu\Variables.cpp">
+      <Filter>Source Files\Cheat\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheat\Game\Structs.cpp">
+      <Filter>Source Files\Cheat\Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cheat\Main.h">
+      <Filter>Header Files\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Utils\Xors.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Utils\spoof_call.h">
+      <Filter>Header Files\Cheat\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Utils\MinHook\buffer.h">
+      <Filter>Header Files\Cheat\Utils\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Utils\MinHook\MinHook.h">
+      <Filter>Header Files\Cheat\Utils\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Utils\MinHook\trampoline.h">
+      <Filter>Header Files\Cheat\Utils\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Utils\MinHook\hde\hde32.h">
+      <Filter>Header Files\Cheat\Utils\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Utils\MinHook\hde\hde64.h">
+      <Filter>Header Files\Cheat\Utils\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Utils\MinHook\hde\pstdint.h">
+      <Filter>Header Files\Cheat\Utils\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Utils\MinHook\hde\table32.h">
+      <Filter>Header Files\Cheat\Utils\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Utils\MinHook\hde\table64.h">
+      <Filter>Header Files\Cheat\Utils\MinHook\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Utils\Addresses.h">
+      <Filter>Header Files\Cheat\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Game\Functions.h">
+      <Filter>Header Files\Cheat\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Menu\Variables.h">
+      <Filter>Header Files\Cheat\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheat\Game\Structs.h">
+      <Filter>Header Files\Cheat\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Cheat\Utils\spoof_call.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
